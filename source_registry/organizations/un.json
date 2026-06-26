@@ -1,0 +1,34 @@
+{
+  "registry_name": "United Nations Sources",
+  "registry_version": "0.1.0",
+  "category": "official_organization",
+  "description": "Official United Nations sources used by VRA for international verified data.",
+  "sources": [
+    {
+      "id": "un_data",
+      "name": "UN Data",
+      "domain": "data.un.org",
+      "base_url": "https://data.un.org",
+      "source_type": "official_organization",
+      "authority_score": 96,
+      "is_official": true,
+      "api_available": true,
+      "update_frequency": "periodic",
+      "status": "active",
+      "notes": "Used for international statistics and global datasets."
+    },
+    {
+      "id": "un_population",
+      "name": "United Nations Population Division",
+      "domain": "population.un.org",
+      "base_url": "https://population.un.org",
+      "source_type": "official_organization",
+      "authority_score": 97,
+      "is_official": true,
+      "api_available": true,
+      "update_frequency": "periodic",
+      "status": "active",
+      "notes": "Used for population estimates and projections."
+    }
+  ]
+}

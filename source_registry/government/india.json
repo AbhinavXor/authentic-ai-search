@@ -1,0 +1,35 @@
+{
+  "registry_name": "India Government Sources",
+  "registry_version": "0.1.0",
+  "country": "India",
+  "category": "government",
+  "description": "Official Indian government sources used by VRA for verified answers.",
+  "sources": [
+    {
+      "id": "india_mospi",
+      "name": "Ministry of Statistics and Programme Implementation",
+      "domain": "mospi.gov.in",
+      "base_url": "https://www.mospi.gov.in",
+      "source_type": "government",
+      "authority_score": 98,
+      "is_official": true,
+      "api_available": false,
+      "update_frequency": "periodic",
+      "status": "active",
+      "notes": "Used for official statistics and government datasets."
+    },
+    {
+      "id": "india_census",
+      "name": "Census of India",
+      "domain": "censusindia.gov.in",
+      "base_url": "https://censusindia.gov.in",
+      "source_type": "government",
+      "authority_score": 99,
+      "is_official": true,
+      "api_available": false,
+      "update_frequency": "census_cycle",
+      "status": "active",
+      "notes": "Used for population and census-related data."
+    }
+  ]
+}

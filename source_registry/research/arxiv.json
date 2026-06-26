@@ -1,0 +1,34 @@
+{
+  "registry_name": "Research Sources",
+  "registry_version": "0.1.0",
+  "category": "research",
+  "description": "Research and academic sources used by VRA.",
+  "sources": [
+    {
+      "id": "arxiv",
+      "name": "arXiv",
+      "domain": "arxiv.org",
+      "base_url": "https://arxiv.org",
+      "source_type": "research_paper",
+      "authority_score": 90,
+      "is_official": true,
+      "api_available": true,
+      "update_frequency": "daily",
+      "status": "active",
+      "notes": "Open-access research paper repository."
+    },
+    {
+      "id": "semantic_scholar",
+      "name": "Semantic Scholar",
+      "domain": "semanticscholar.org",
+      "base_url": "https://www.semanticscholar.org",
+      "source_type": "research_database",
+      "authority_score": 92,
+      "is_official": true,
+      "api_available": true,
+      "update_frequency": "daily",
+      "status": "active",
+      "notes": "Research indexing and citation database."
+    }
+  ]
+}
